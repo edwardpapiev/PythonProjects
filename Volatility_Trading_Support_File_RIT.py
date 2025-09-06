@@ -157,6 +157,7 @@ def main():
             #y = assets2['last']
             #plt.plot(y)
             #plt.plotsize(50, 30)
-            sleep(0.5)
+            sleep(1)
 if __name__ == '__main__':
+
         main()
