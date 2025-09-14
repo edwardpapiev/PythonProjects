@@ -11,7 +11,7 @@ from itertools import combinations
 from datetime import datetime
 stake = 100
 
-api_key = '9126553aa7a47dbdae115638e9c52c1a'
+api_key = '#ENTER API KEY HERE'
 base_url = 'https://api.the-odds-api.com/v4/sports'
 
 
@@ -129,3 +129,4 @@ if __name__ == "__main__":
     alloc_df = calc_all(arbitrage_df)
     
     print(alloc_df.to_markdown(index=False))
+
